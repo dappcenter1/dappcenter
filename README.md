@@ -1,7 +1,7 @@
 
 ![enter image description here](https://dappcenter.app/assets/source/gif.gif)
 
-# Get Your Free Whitelabel EVM Dapp
+# Build your Blockchain SaaS For FREE and Earn From Each Transaction
 
 DAPPCENTER is a blockchain utility tool for EVM chains, Users can use DAPPCENTER to batch send tokens & NFT's, generate token without coding, lock their tokens or liquidity pool tokens, manage their tokens, manage their locks...
 
