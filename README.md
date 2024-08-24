@@ -1,5 +1,5 @@
 
-![enter image description here](https://dappcenter.app/assets/source/1.png)
+![enter image description here](https://dappcenter.app/assets/source/gif.gif)
 
 # Get Your Free Whitelabel EVM Dapp
 
