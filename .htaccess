@@ -1,1 +1,14 @@
+RewriteEngine On
 
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule ^locks/(.+)$ /locks/[[...slug]]/index.html [NC,L]
+
+RewriteRule ^create-token/(.+)$ /create-token/[slug]/index.html [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /404.html [L]
