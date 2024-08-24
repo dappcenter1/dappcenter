@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #000;
+  --background: #fff;
+  --light: 212, 89%, 57%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #fff;
+    --background: #000;
+    --light: 212, 89%, 57%;
+  }
+}
+
+body {
+  color: rgb(var(--foreground));
+  background-color: rgb(var(--background));
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #9353d3;
+}
+.custom-textarea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.custom-textarea::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.custom-textarea::-webkit-scrollbar {
+  width: 5px;
+}
+
+.addresses-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.addresses-scroll::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.addresses-scroll::-webkit-scrollbar {
+  width: 5px;
+  padding-right: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+.line-count::-webkit-scrollbar-track {
+  display: none;
+}
+
+.line-count::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.line-count::-webkit-scrollbar {
+  display: none;
+}
+
+.line-count {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.line-count::-webkit-scrollbar {
+  display: none; /* WebKit (Chrome, Safari) */
+}
+
+.Toastify__toast-container {
+  z-index: 20000 !important;
+}
+.alert-danger {
+  background-color: #570803;
+  color: white;
+}
+
+.alert {
+  border: "1px solid black";
+}
+
+.custom-textarea {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.custom-textarea:focus {
+  outline: none !important;
+  border: none !important; /* Opsiyonel: border'ı da kaldırmak istiyorsanız */
+}
+.line-count {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 720px) {
+  .custom-textarea {
+    font-size: 10px;
+  }
+  .line-count {
+    font-size: 10px;
+  }
+  .responsive-text {
+    font-size: 16px;
+  }
+
+  .address-text {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .custom-textarea {
+    font-size: 8px;
+  }
+  .line-count {
+    font-size: 8px;
+  }
+
+  .address-text {
+    font-size: 8px;
+  }
+}
+
+.green-shadow {
+  box-shadow: 4px 4px 5px 0px rgba(1, 252, 51, 0.41);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(1, 252, 51, 0.41);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(1, 252, 51, 0.41);
+}
+
+.red-shadow {
+  box-shadow: 4px 4px 5px 0px rgba(241, 3, 54, 0.41);
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(241, 3, 54, 0.41);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(241, 3, 54, 0.41);
+}

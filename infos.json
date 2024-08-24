@@ -1,0 +1,73 @@
+{
+  "dappcenter": true,
+  "bannerTitle": "DappCenter makes blockchain Easy",
+  "bannerDescription": "You can create tokens, batch send tokens and NFTs on DappCenter without any coding knowledge, with the lowest fees. More tools coming soon...",
+  "socials": [
+    { "link": "https://t.me/dappcenterapp", "iconName": "Telegram" },
+    { "link": "https://x.com/dappcenter_app", "iconName": "TwitterX" },
+    { "link": "https://discord.com/invite/KQKxkce3UQ", "iconName": "Discord" },
+    { "link": "https://github.com/dappcenter1", "iconName": "Github" },
+    { "link": "https://www.youtube.com/@DappCenterApp", "iconName": "Youtube" },
+    { "link": "mailto:dappcenter1@gmail.com", "iconName": "Envelope" }
+  ],
+  "email": "dappcenter1@gmail.com",
+  "projectName": "DAPPCENTER",
+  "refWallet": "0x370D71435cC9882bA5682C3B1387D5A252f0CF81",
+  "footerDescription": "DAppCenter is a utility dapp for making transactions easy for non-coders. You can create tokens, batch send tokens & nft's on DAppCenter, user-friendly, secure and safe.",
+  "homeApps": [
+    {
+      "title": "Token Batch Sender",
+      "img": "/tokenmultisender.png",
+      "description": "Send your erc20 tokens up to 100 addresses and amounts at once",
+      "link": "/tokensender"
+    },
+    {
+      "title": "NFT Batch Sender",
+      "img": "/nftmultisender.png",
+      "description": "Send your erc721 & erc1155 tokens up to 100 addresses and amounts at once",
+      "link": "/nftsender"
+    },
+    {
+      "title": "Token Generator",
+      "img": "/tokengenerator.png",
+      "description": "Create your token without code, advanced token features such as initial liquidity, lp burn and more",
+      "link": "/create-token"
+    },
+    {
+      "title": "More Soon",
+      "img": "/comingsoon.png",
+      "description": "As Dappcenter team we are going to add more features to make web more decentralized",
+      "link": ""
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is Fee's of DAPPCENTER",
+      "a": "Our fees listed on our homepage, please remember you need to pay network fees too."
+    },
+    {
+      "q": "How can I multisend tokens?",
+      "a": "You can use DAPPCENTER multisender to multisend your tokens, you can see how to do it on our youtube channel."
+    },
+    {
+      "q": "How can I multisend NFT's?",
+      "a": "You can use DAPPCENTER nftsender to multisend your NFT's, you can see how to do it on our youtube channel."
+    },
+    {
+      "q": "How to lock my tokens or liquidity?",
+      "a": "You can use DAPPCENTER token lock to lock your tokens or liquidity pool tokens, you can see how to do it on our youtube channel."
+    },
+    {
+      "q": "How can I create tokens?",
+      "a": "You can create your tokens by using DAPPCENTER token generator, you can choose your token type and fill the form and approve it on your wallet, for more information you can check our youtube channel."
+    },
+    {
+      "q": "How can I edit my lock?",
+      "a": "Once you locked your token, you can add more tokens to your lock or you can extend date by browsing your locks on DAPPCENTER, you can see how to do it on our youtube channel."
+    },
+    {
+      "q": "How can I change the features of my token?",
+      "a": "You can click the managhe token from our menu and choose your token type and enter your contract address, you will see all yout token information and you will be able to change them on our easy UI without any code."
+    }
+  ]
+}
